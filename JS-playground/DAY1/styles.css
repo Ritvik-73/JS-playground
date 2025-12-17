@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Changa+One:ital@0;1&display=swap');
+
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+.body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('leaves bg.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+
+
+
+.coantainer{
+    text-align:center;
+    display: flex;
+    flex-direction:column;
+    gap: 40px;
+    border-radius: 20px;
+    padding: 100px;
+    width:50%;
+    height: 70%;
+    background: transparent;
+    backdrop-filter: blur(8.5px);
+    border: 1px solid rgba(198, 199, 211, 0.18);
+    box-shadow: 0 8px 32px 0 rgb(6, 14, 7);
+}
+
+
+.headcot{
+    padding-bottom: 40px;
+
+}
+.head{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: 'Bungee', sans-serif;
+    font-size: 40px;
+}
+
+.title{
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
