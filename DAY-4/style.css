@@ -29,7 +29,8 @@
     backdrop-filter: blur(8.5px);
     border: 1px solid rgba(198, 199, 211, 0.18);
     box-shadow: 0 8px 32px 0 rgb(6, 14, 7);
-    border-radius: 20px;
+    border-radius: 60px;
+    corner-shape: squircle;
 }
 
 .head{
@@ -40,9 +41,10 @@
     backdrop-filter: blur(15px);
     border: 1px solid rgba(198, 199, 211, 0.18);
     box-shadow: 0 8px 32px 0 rgb(6, 14, 7);
-    border-radius: 20px;
+    border-radius: 60px;
     padding: 20px;
     color: white;
+    corner-shape: squircle;
 }
 
 
@@ -56,14 +58,14 @@
 .but{
     font-size: 18px;
     padding: 15px;
-    border-radius: 10px;
+    border-radius: 60px;
     background: transparent;
     backdrop-filter: blur(20px);
     border: 1px solid rgba(198, 199, 211, 0.18);
     box-shadow:inset 0 8px 32px 0 rgb(6, 14, 7);
     color: white;
     cursor: pointer;
-    
+    corner-shape: squircle;
 }
 
 .in{
