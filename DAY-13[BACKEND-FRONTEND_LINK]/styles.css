@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    gap: 80px;
+    background-image: url('liz-joseph-3BpbVUE2O0w-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.cot{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;background: transparent;
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(198, 199, 211, 0.18);
+    box-shadow: 0 8px 32px 0 rgb(6, 14, 7);
+    border-radius: 60px;
+    corner-shape: squircle;
+}
+
+.head{
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    background: transparent;
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(198, 199, 211, 0.18);
+    box-shadow: 0 8px 32px 0 rgb(6, 14, 7);
+    border-radius: 60px;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    corner-shape: squircle;
+}
+
+button{
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 40px;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(198, 199, 211, 0.18);
+    box-shadow:inset 0 8px 32px 0 rgb(6, 14, 7);
+    color: white;
+    cursor: pointer;
+    corner-shape: squircle;
+}
+
+.shoe-card {
+  background: rgba(255,255,255,0.1);
+  padding: 12px;
+  margin: 10px;
+  border-radius: 40px;
+  backdrop-filter: blur(10px);
+  corner-shape: squircle;
+  border: 1px solid rgba(198, 199, 211, 0.18);
+  box-shadow: 0 8px 32px 0 rgb(6, 14, 7);
+  color: white;
+}
+
+p{
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 40px;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(198, 199, 211, 0.18);
+    box-shadow:inset 0 8px 32px 0 rgb(6, 14, 7);
+    color: white;
+    cursor: pointer;
+    corner-shape: squircle;
+}
+
+
